@@ -1,5 +1,7 @@
 # Algorithmic Stock Forecasting 📈
 
+[![Try this Live App](https://img.shields.io/badge/🚀_Try_this_Live_App-Click_Here-28a745?style=for-the-badge&logoColor=white)](https://algorithmic1stock0forecasting.streamlit.app) &nbsp; [![Demo Video](https://img.shields.io/badge/📹_Project_Walkthrough-Watch_Now-red?style=for-the-badge&logoColor=white)]()
+
 Built an end-to-end pipeline predicting **AAPL** stock prices across 30-day horizons. This project compares statistical, machine learning, and deep learning models to achieve high-precision financial forecasting.
 
 ## 🚀 Impact
@@ -30,8 +32,10 @@ The project evaluates four distinct modeling approaches:
 
 ## 🛠️ Project Structure
 ```text
+├── app.py                           # Streamlit dashboard application
 ├── EDA.ipynb                        # Exploratory Data Analysis & Feature Engineering
 ├── Model Building and Evaluation.ipynb # Training & Comparative Analysis
+├── artifacts/                       # Saved pre-trained models and scalers
 ├── results/                         # Performance charts and dashboards
 ├── dataset.csv                      # Raw Apple stock data
 ├── stock_predict.csv                # Engineered features dataset
@@ -48,8 +52,13 @@ The project evaluates four distinct modeling approaches:
     ```bash
     pip install -r requirements.txt
     ```
-3.  **Run the analysis:**
+3.  **Run the analysis & application:**
     Open `EDA.ipynb` for initial analysis or `Model Building and Evaluation.ipynb` to train and test the forecasting models.
+    
+    To launch the interactive dashboard locally, run:
+    ```bash
+    streamlit run app.py
+    ```
 
 ---
 
