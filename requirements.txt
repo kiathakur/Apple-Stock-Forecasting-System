@@ -11,3 +11,6 @@ xgboost
 joblib
 scipy
 ipython
+yfinance
+plotly
+# tensorflow (Requires Python <= 3.12)
